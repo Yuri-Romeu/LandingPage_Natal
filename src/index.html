@@ -4,10 +4,34 @@
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Landing Page - Natal</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link
+               href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+               rel="stylesheet"
+          />
           <link rel="stylesheet" href="./styles/main.scss" />
      </head>
      <body>
-          <h1>Ola mundo</h1>
+          <header class="header">
+               <div class="header__content">
+                    <div class="header__content__img">
+                         <img src="./images/arvore-natal.webp" alt="" />
+                    </div>
+                    <div class="header__content__text">
+                         <h1 class="header__content__text__title">
+                              O dia mais aguardado do ano esta chegando...
+                         </h1>
+                         <p class="header__content__text__text">Faltam:</p>
+                         <ul class="header__content__text__date">
+                              <li><span id="day">2</span> Days</li>
+                              <li><span id="hours">2</span> Hours</li>
+                              <li><span id="mins">2</span> Mins</li>
+                              <li><span id="secs">2</span> Secs</li>
+                         </ul>
+                    </div>
+               </div>
+          </header>
 
           <script src="./scripts/main.js"></script>
      </body>
