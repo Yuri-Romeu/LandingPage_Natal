@@ -4,6 +4,7 @@
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Landing Page - Natal</title>
+          <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
           <link
@@ -15,10 +16,10 @@
      <body>
           <header class="header">
                <div class="header__content">
-                    <div class="header__content__img">
+                    <div class="header__content__img" data-aos="fade-right">
                          <img src="./images/arvore-natal.webp" alt="" />
                     </div>
-                    <div class="header__content__text">
+                    <div class="header__content__text" data-aos="fade-left">
                          <h1 class="header__content__text__title">
                               O dia mais aguardado do ano esta chegando...
                          </h1>
@@ -32,7 +33,50 @@
                     </div>
                </div>
           </header>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+               <path
+                    fill="#7a0002"
+                    fill-opacity="1"
+                    d="M0,0L60,21.3C120,43,240,85,360,90.7C480,96,600,64,720,53.3C840,43,960,53,1080,69.3C1200,85,1320,107,1380,117.3L1440,128L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"
+               ></path>
+          </svg>
+          <section class="what-its">
+               <h1 class="what-its__title">O que é o natal?</h1>
+               <hr />
 
+               <div class="what-its__content">
+                    <div class="what-its__content__cristao" data-aos="fade-right">
+                         <img src="./images/cruz.png" alt="" />
+                         <h1>Data Cristã:</h1>
+                         <p>
+                              Comemora-se o nascimento de Jesus Cristo, o Filho de Deus e Salvador
+                              da humanidade, É um tempo de esperança, luz, reconciliação, paz e
+                              amor.
+                         </p>
+                    </div>
+                    <div class="what-its__content__cultural" data-aos="fade-down">
+                         <img src="./images/cultura.png" alt="" />
+                         <h1>Cultura:</h1>
+                         <p>
+                              O Natal é uma das festas mais celebradas no mundo, misturando
+                              tradições religiosas e culturais. Já em muitos países, ele também
+                              virou um tempo de união familiar, troca de presentes e decorações
+                              especiais como a árvore de Natal e o presépio.
+                         </p>
+                    </div>
+                    <div class="what-its__content__curiosidade" data-aos="fade-left">
+                         <img src="./images/curiosidade.png" alt="" />
+                         <h1>Curiosidade:</h1>
+                         <p>
+                              Uma curiosidade é que o Papai Noel foi inspirado em São Nicolau, um
+                              bispo que ajudava os pobres. Com o tempo, ele ganhou roupas vermelhas
+                              e a imagem moderna que conhecemos hoje, influenciada por campanhas
+                              publicitárias.
+                         </p>
+                    </div>
+               </div>
+          </section>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
           <script src="./scripts/main.js"></script>
      </body>
 </html>

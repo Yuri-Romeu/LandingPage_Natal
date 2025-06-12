@@ -1,8 +1,18 @@
 @use 'header';
 @use 'variaveis';
+@use 'what_its';
 
 * {
      margin: 0;
      padding: 0;
      box-sizing: border-box;
+}
+
+hr {
+     margin: 0 auto;
+     margin-top: 15px;
+     border: none;
+     width: 150px;
+     height: 5px;
+     background: variaveis.$lightRed;
 }
