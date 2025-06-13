@@ -74,4 +74,27 @@
                }
           }
      }
+
+     @media (max-width: 640px) {
+          &__content {
+               flex-direction: column;
+
+               &__img {
+                    img {
+                         max-width: 300px;
+                         width: 100%;
+                         margin-left: 30px;
+                    }
+               }
+
+               &__text {
+                    width: 340px;
+                    text-align: center;
+
+                    &__date {
+                         margin-bottom: 60px;
+                    }
+               }
+          }
+     }
 }

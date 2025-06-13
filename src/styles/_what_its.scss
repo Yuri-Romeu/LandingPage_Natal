@@ -105,4 +105,14 @@
                }
           }
      }
+
+     @media (max-width: 640px) {
+          padding: 1vw 1vw;
+
+          &__content {
+               display: flex;
+               flex-direction: column;
+               gap: 30px;
+          }
+     }
 }
